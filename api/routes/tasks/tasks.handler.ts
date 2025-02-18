@@ -4,7 +4,7 @@ import {
   RemoveRoute,
   UpdateRoute,
 } from "./tasks.route";
-import { AppHandler } from "@/lib/types";
+import { AppHandler } from "../../lib/types";
 import prisma from "../../../prisma";
 import * as HttpStatusCodes from "stoker/http-status-codes";
 
